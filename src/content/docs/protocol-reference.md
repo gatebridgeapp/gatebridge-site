@@ -5,7 +5,7 @@ order: 4
 ---
 
 Gatebridge's message protocol is specified in full in
-[`PROTOCOL.md`](https://github.com/gatebridgeapp/fido2-android-bridge/blob/main/PROTOCOL.md)
+[`PROTOCOL.md`](https://github.com/gatebridgeapp/fido2-android-bridge/blob/master/PROTOCOL.md)
 in the repository. This page is a summary.
 
 ## Pairing link
