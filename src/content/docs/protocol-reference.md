@@ -1,7 +1,7 @@
 ---
 title: "Protocol reference"
 description: "Wire format, pairing link, encryption envelope, and message schemas."
-order: 3
+order: 4
 ---
 
 Gatebridge's message protocol is specified in full in

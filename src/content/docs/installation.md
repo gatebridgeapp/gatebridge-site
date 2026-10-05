@@ -1,10 +1,10 @@
 ---
-title: "Installation"
-description: "Detailed installation of the Gatebridge server program, configuration options, and systemd setup."
-order: 2
+title: "Install from source"
+description: "Build and install the Gatebridge server program from source, plus configuration options and systemd setup."
+order: 3
 ---
 
-Full installation guide for the Gatebridge server program.
+Build the Gatebridge server program from source. For packaged installs (apt/dnf), see [install from packages](/docs/packages/).
 
 ## Requirements
 

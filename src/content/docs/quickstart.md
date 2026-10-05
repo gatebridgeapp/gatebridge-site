@@ -10,7 +10,6 @@ Get from zero to a hardware-backed signature through your phone.
 
 - A Linux server (or local VM) where you can run a program
 - An Android phone with fingerprint or face unlock
-- Python 3.11 or newer on the server
 
 ## 1. Set up the relay
 
@@ -26,6 +25,10 @@ centrifugo --config=config.json
 See the repository's `relay/` directory for a sample config.
 
 ## 2. Install the server program
+
+**Packages (recommended):** apt or dnf on Debian, Ubuntu, Fedora, Rocky, AlmaLinux. See [install from packages](/docs/packages/).
+
+**From source** (needs Python 3.11+):
 
 ```bash
 git clone https://github.com/andreparames/fido2-android-bridge.git
