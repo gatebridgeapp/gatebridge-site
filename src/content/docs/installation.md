@@ -16,7 +16,7 @@ Build the Gatebridge server program from source. For packaged installs (apt/dnf)
 ## Install from source
 
 ```bash
-git clone https://github.com/andreparames/fido2-android-bridge.git
+git clone https://github.com/gatebridgeapp/fido2-android-bridge.git
 cd fido2-android-bridge/linux-fido-daemon
 python3 -m venv .venv
 source .venv/bin/activate

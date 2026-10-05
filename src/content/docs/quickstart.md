@@ -31,7 +31,7 @@ See the repository's `relay/` directory for a sample config.
 **From source** (needs Python 3.11+):
 
 ```bash
-git clone https://github.com/andreparames/fido2-android-bridge.git
+git clone https://github.com/gatebridgeapp/fido2-android-bridge.git
 cd fido2-android-bridge/linux-fido-daemon
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e "."
