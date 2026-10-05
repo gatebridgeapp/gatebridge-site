@@ -2,7 +2,7 @@
 
 Marketing site for [Gatebridge](https://gatebridge.app) (`gatebridge.app`), built with [Astro](https://astro.build).
 
-Product/protocol source lives in [fido2-android-bridge](https://github.com/andreparames/fido2-android-bridge). This repo is only the static site and its GitHub Pages pipeline.
+Product/protocol source lives in [fido2-android-bridge](https://github.com/gatebridgeapp/fido2-android-bridge). This repo is only the static site and its GitHub Pages pipeline.
 
 ## Quick start
 
@@ -26,5 +26,5 @@ See [`WEBSITE_PLAN.md`](./WEBSITE_PLAN.md) for structure, style, and funnel note
 
 ## Related
 
-- [fido2-android-bridge](https://github.com/andreparames/fido2-android-bridge) — daemon, Android app, protocol
+- [fido2-android-bridge](https://github.com/gatebridgeapp/fido2-android-bridge) — daemon, Android app, protocol
 - [gatebridge.app](https://gatebridge.app) — live site

@@ -28,10 +28,10 @@ Gatebridge solves: getting phishing-resistant, hardware-backed WebAuthn/passkey 
 - Encryption: Noise Protocol (Noise_IK_25519_AESGCM_SHA256), perfect forward secrecy per session
 - Keys: Android KeyStore / secure hardware; biometric required per signature; no software-only fallback
 - Domain: gatebridge.app
-- GitHub: https://github.com/andreparames/fido2-android-bridge
+- GitHub: https://github.com/gatebridgeapp/fido2-android-bridge
 - Not in scope: SSH sk-* key replacement, password managers, OTP/TOTP, SSO/IdP, general FIDO2 server
 
 ## Optional
 
-- [GitHub repository](https://github.com/andreparames/fido2-android-bridge)
+- [GitHub repository](https://github.com/gatebridgeapp/fido2-android-bridge)
 - [Full docs](https://gatebridge.app/docs/quickstart)
