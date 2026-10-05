@@ -6,11 +6,19 @@ order: 2
 
 Packaged installs of the Gatebridge server program (`fido-daemon`). After install, continue with pairing in the [quickstart](/docs/quickstart/).
 
-A shell script that downloads and runs the same install is planned. Until it ships, use the repository steps below.
+## One-line installer
 
-## Debian / Ubuntu
+Detects the distro, adds the repository, and installs the package:
 
-Suites: `bookworm` (Debian 12), `trixie` (Debian 13), `noble` (Ubuntu 24.04).
+```bash
+curl -fsSL https://packages.gatebridge.app/install.sh | sudo sh
+```
+
+On Ubuntu 22.04 it offers to install `python3.11` first if needed.
+
+## Debian / Ubuntu (manual)
+
+Suites: `bookworm` (Debian 12), `trixie` (Debian 13), `noble` (Ubuntu 24.04), `jammy` (Ubuntu 22.04).
 
 ```bash
 sudo install -d -m 0755 /etc/apt/keyrings
@@ -22,9 +30,9 @@ sudo apt update
 sudo apt install fido-daemon
 ```
 
-Replace `trixie` in the sources line with `bookworm` or `noble` as appropriate.
+Replace `trixie` in the sources line with `bookworm`, `noble`, or `jammy` as appropriate.
 
-## RHEL / Fedora / Rocky / Alma
+## RHEL / Fedora / Rocky / Alma (manual)
 
 ```bash
 sudo rpm --import https://packages.gatebridge.app/RPM-GPG-KEY
